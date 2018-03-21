@@ -58,6 +58,10 @@ $ git commit -m "remove test.txt"
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
 
+//从远程库克隆git仓库
+git clone git@github.com:michaelliao/gitskills.git
+
+
 
 
 

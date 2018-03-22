@@ -144,6 +144,24 @@ git push origin :br  (origin 后面有空格)
 •从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
 
 
+【查看历史版本提交记录】
+
+方法是找到历史提交的commit id，然后打上就可以了：
+
+$ git log --pretty=oneline --abbrev-commit
+
+【打标签】
+
+git tag v0.9 6224937
+
+【查看标签】
+
+git tag
+
+git show tag_name
+
+
+
 
 
 

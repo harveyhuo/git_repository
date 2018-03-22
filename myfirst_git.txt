@@ -160,6 +160,22 @@ git tag
 
 git show tag_name
 
+【删除标签】
+git tag -d tag_name
+
+【推送标签到远程库】
+git push origin tag_name
+git push origin --tags  推送全部未推送的标签
+
+【删除远程库标签】
+1.删除本地标签 git tag -d tag_name
+2.删除远程库 git push origin :refs/tags/v1.0
+
+【克隆别人的开源项目】
+1.fork 克隆到自己git账号
+2.clone到本地仓库修改
+
+
 
 
 

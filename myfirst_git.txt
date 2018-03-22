@@ -87,6 +87,8 @@ dev分支合并到master分支： git merge dev
 
 删除分支：git branch -d <name>
 
+master分支修改
+
 
 
 

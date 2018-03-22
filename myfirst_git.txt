@@ -88,7 +88,9 @@ dev分支合并到master分支： git merge dev
 删除分支：git branch -d <name>
 
 
-master分支修改
+用git log --graph命令可以看到分支合并图。
+
+合并分支冲突，解决冲突文件，add 之后 commit  删除分支
 
 
 

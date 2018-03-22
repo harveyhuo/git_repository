@@ -61,6 +61,15 @@ $ git commit -m "remove test.txt"
 //从远程库克隆git仓库
 git clone git@github.com:michaelliao/gitskills.git
 
+分支管理：
+
+创建分支：git checkout -b dev     创建开发分支并且切换到分支dev
+切换分支：git checkout dev  切换分支到dev
+查看当前分支：git branch
+创建分支：git branch dev 创建开发分支
+
+
+开发分支提交代码
 
 
 
